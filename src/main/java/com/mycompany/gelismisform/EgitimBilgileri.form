@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="bolumLbl" max="32767" attributes="0"/>
+                  <Component id="mezuniyetOrtLbl" max="32767" attributes="0"/>
+                  <Component id="mezuniyetLbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="okulLbl" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="ilerleBtn" min="-2" max="-2" attributes="0"/>
+                      <Component id="mezuniyetCbx" min="-2" max="-2" attributes="0"/>
+                      <Component id="okulCbx" min="-2" pref="330" max="-2" attributes="0"/>
+                      <Component id="bolumCbx" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="OrtalamaCbx" min="-2" pref="110" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="18" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="mezuniyetLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="mezuniyetCbx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="okulLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="okulCbx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="bolumLbl" min="-2" pref="16" max="-2" attributes="0"/>
+                  <Component id="bolumCbx" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="mezuniyetOrtLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="OrtalamaCbx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="52" max="32767" attributes="0"/>
+              <Component id="ilerleBtn" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="mezuniyetLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mezuniyet Derecesi"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="mezuniyetCbx">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Se&#xe7;"/>
+            <StringItem index="1" value="&#xd6;n Lisans"/>
+            <StringItem index="2" value="Lisans"/>
+            <StringItem index="3" value="Y&#xfc;ksek Lisans"/>
+            <StringItem index="4" value="Doktora"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="okulLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mezun Olunan Okul"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="okulCbx">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="78">
+            <StringItem index="0" value="  Se&#xe7;"/>
+            <StringItem index="1" value=" Abant &#x130;zzet Baysal &#xdc;niversitesi (Bolu)"/>
+            <StringItem index="2" value=" Adnan Menderes &#xdc;niversitesi (Ayd&#x131;n)"/>
+            <StringItem index="3" value=" Afyon Kocatepe &#xdc;niversitesi(Afyon)"/>
+            <StringItem index="4" value=" Akdeniz &#xdc;niversitesi (Antalya)"/>
+            <StringItem index="5" value=" Anadolu &#xdc;niversitesi (Eski&#x15f;ehir)"/>
+            <StringItem index="6" value=" Ankara &#xdc;niversitesi(Ankara)"/>
+            <StringItem index="7" value=" Atat&#xfc;rk &#xdc;niversitesi (Erzurum)"/>
+            <StringItem index="8" value=" At&#x131;l&#x131;m &#xdc;niversitesi (Ankara)"/>
+            <StringItem index="9" value=" Bah&#xe7;e&#x15f;ehir &#xdc;niversitesi(&#x130;stanbul)"/>
+            <StringItem index="10" value=" Bal&#x131;kesir &#xdc;niversitesi(Bal&#x131;kesir)"/>
+            <StringItem index="11" value=" Ba&#x15f;kent &#xdc;niversitesi (Ankara)"/>
+            <StringItem index="12" value=" Beykent &#xdc;niversitesi (&#x130;stanbul)"/>
+            <StringItem index="13" value=" Bilkent &#xdc;niversitesi (Ankara)"/>
+            <StringItem index="14" value=" Bo&#x11f;azi&#xe7;i &#xdc;niversitesi (&#x130;stanbul)"/>
+            <StringItem index="15" value=" Cel&#xe2;l Bayar &#xdc;niversitesi (Manisa)"/>
+            <StringItem index="16" value=" Cumhuriyet &#xdc;niversitesi (Sivas)"/>
+            <StringItem index="17" value=" &#xc7;a&#x11f; &#xdc;niversitesi (Tarsus-&#x130;&#xe7;el)"/>
+            <StringItem index="18" value=" &#xc7;anakkale Onsekiz Mart &#xdc;niversitesi(&#xc7;anakkale)"/>
+            <StringItem index="19" value="&#xc7;ankaya &#xdc;niversitesi (Ankara)"/>
+            <StringItem index="20" value=" &#xc7;ukurova &#xdc;niversitesi (Adana)"/>
+            <StringItem index="21" value=" Dicle &#xdc;niversitesi (Diyarbak&#x131;r)"/>
+            <StringItem index="22" value=" Do&#x11f;u&#x15f; &#xdc;niversitesi (&#x130;stanbul)"/>
+            <StringItem index="23" value=" Dokuz Eyl&#xfc;l &#xdc;niversitesi (&#x130;zmir)"/>
+            <StringItem index="24" value=" Dumlup&#x131;nar &#xdc;niversitesi (K&#xfc;tahya)"/>
+            <StringItem index="25" value=" Ege &#xdc;niversitesi (&#x130;zmir)"/>
+            <StringItem index="26" value=" Erciyes &#xdc;niversitesi (Kayseri)"/>
+            <StringItem index="27" value=" Fatih &#xdc;niversitesi (&#x130;stanbul)"/>
+            <StringItem index="28" value=" F&#x131;rat &#xdc;niversitesi (Elaz&#x131;&#x11f;)"/>
+            <StringItem index="29" value=" Galatasaray &#xdc;niversitesi (&#x130;stanbul)"/>
+            <StringItem index="30" value=" Gazi &#xdc;niversitesi (Ankara)"/>
+            <StringItem index="31" value=" Gaziantep &#xdc;niversitesi(Gaziantep)"/>
+            <StringItem index="32" value=" Gaziosmanpa&#x15f;a &#xdc;niversitesi (Tokat)"/>
+            <StringItem index="33" value=" Gebze Y&#xfc;ksek Teknoloji Enstit&#xfc;s&#xfc;(&#x130;zmit-Kocaeli)"/>
+            <StringItem index="34" value=" Hacettepe &#xdc;niversitesi (Ankara)"/>
+            <StringItem index="35" value=" Hali&#xe7; &#xdc;niversitesi(&#x130;stanbul)"/>
+            <StringItem index="36" value=" Harran &#xdc;niversitesi (&#x15e;anl&#x131;urfa)"/>
+            <StringItem index="37" value=" I&#x15f;&#x131;k &#xdc;niversitesi (&#x130;stanbul)"/>
+            <StringItem index="38" value=" &#x130;n&#xf6;n&#xfc; &#xdc;niversitesi (Malatya)"/>
+            <StringItem index="39" value=" &#x130;stanbul &#xdc;niversitesi(&#x130;stanbul)"/>
+            <StringItem index="40" value=" &#x130;stanbul Bilgi &#xdc;niversitesi(&#x130;stanbul)"/>
+            <StringItem index="41" value=" &#x130;stanbul K&#xfc;lt&#xfc;r &#xdc;niversitesi(&#x130;stanbul)"/>
+            <StringItem index="42" value=" &#x130;stanbul Teknik &#xdc;niversitesi(&#x130;stanbul)"/>
+            <StringItem index="43" value=" &#x130;stanbul Ticaret &#xdc;niversitesi(&#x130;stanbul)"/>
+            <StringItem index="44" value=" &#x130;zmir Y&#xfc;ksek Teknoloji Enstit&#xfc;s&#xfc;(&#x130;zmir)"/>
+            <StringItem index="45" value=" &#x130;zmir Ekonomi &#xdc;niversitesi(&#x130;zmir)"/>
+            <StringItem index="46" value=" Kadir Has &#xdc;niversitesi(&#x130;stanbul)"/>
+            <StringItem index="47" value=" Kafkas &#xdc;niversitesi (Kars)"/>
+            <StringItem index="48" value=" Kahramanmara&#x15f; S&#xfc;t&#xe7;&#xfc; &#x130;mam &#xdc;niversitesi(Kahramanmara&#x15f;)"/>
+            <StringItem index="49" value=" Karadeniz Teknik &#xdc;niversitesi (Trabzon)"/>
+            <StringItem index="50" value=" K&#x131;r&#x131;kkale &#xdc;niversitesi(K&#x131;r&#x131;kkale)"/>
+            <StringItem index="51" value=" Kocaeli &#xdc;niversitesi(Kocaeli-&#x130;zmit)"/>
+            <StringItem index="52" value=" Ko&#xe7; &#xdc;niversitesi (&#x130;stanbul)"/>
+            <StringItem index="53" value=" Maltepe &#xdc;niversitesi (&#x130;stanbul)"/>
+            <StringItem index="54" value=" Marmara &#xdc;niversitesi (&#x130;stanbul)"/>
+            <StringItem index="55" value=" Mersin &#xdc;niversitesi(Mersin-&#x130;&#xe7;el)"/>
+            <StringItem index="56" value=" Mimar Sinan &#xdc;niversitesi (&#x130;stanbul)"/>
+            <StringItem index="57" value=" Mu&#x11f;la &#xdc;niversitesi(Mu&#x11f;la)"/>
+            <StringItem index="58" value=" Mustafa Kemal &#xdc;niversitesi (Hatay)"/>
+            <StringItem index="59" value=" Ni&#x11f;de &#xdc;niversitesi(Ni&#x11f;de)"/>
+            <StringItem index="60" value=" Okan &#xdc;niversitesi(&#x130;stanbul)"/>
+            <StringItem index="61" value=" Ondokuz May&#x131;s &#xdc;niversitesi (Samsun)"/>
+            <StringItem index="62" value=" Orta Do&#x11f;u Teknik &#xdc;niversitesi (Ankara)"/>
+            <StringItem index="63" value=" Osmangazi &#xdc;niversitesi (Eski&#x15f;ehir)"/>
+            <StringItem index="64" value=" Pamukkale &#xdc;niversitesi (Denizli)"/>
+            <StringItem index="65" value=" Sabanc&#x131; &#xdc;niversitesi(&#x130;stanbul)"/>
+            <StringItem index="66" value=" Sakarya &#xdc;niversitesi(Sakarya-Adapazar&#x131;)"/>
+            <StringItem index="67" value=" Sel&#xe7;uk &#xdc;niversitesi (Konya)"/>
+            <StringItem index="68" value=" S&#xfc;leyman Demirel &#xdc;niversitesi (Isparta)"/>
+            <StringItem index="69" value=" Trakya &#xdc;niversitesi (Edirne)"/>
+            <StringItem index="70" value=" TOBB Ekonomi ve Teknoloji &#xdc;niversitesi(Ankara)"/>
+            <StringItem index="71" value=" Ufuk &#xdc;niversitesi (Ankara)"/>
+            <StringItem index="72" value=" Uluda&#x11f; &#xdc;niversitesi (Bursa)"/>
+            <StringItem index="73" value=" Ya&#x15f;ar &#xdc;niversitesi (&#x130;zmir)"/>
+            <StringItem index="74" value=" Yeditepe &#xdc;niversitesi (&#x130;stanbul)"/>
+            <StringItem index="75" value=" Y&#x131;ld&#x131;z Teknik &#xdc;niversitesi (&#x130;stanbul)"/>
+            <StringItem index="76" value=" Y&#xfc;z&#xfc;nc&#xfc; Y&#x131;l &#xdc;niversitesi (Van)"/>
+            <StringItem index="77" value=" Zonguldak Karaelmas &#xdc;niversitesi(Zonguldak)"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="mezuniyetOrtLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mezuniyet Ortalamas&#x131;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="OrtalamaCbx">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Se&#xe7;"/>
+            <StringItem index="1" value="3.50-4.00"/>
+            <StringItem index="2" value="2.50-3.50"/>
+            <StringItem index="3" value="2.00-2.50"/>
+            <StringItem index="4" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="ilerleBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x130;LERLE"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ilerleBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bolumLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mezun Olunan B&#xf6;l&#xfc;m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="bolumCbx">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="121">
+            <StringItem index="0" value="Se&#xe7;"/>
+            <StringItem index="1" value="Di&#x15f; Hekimli&#x11f;i "/>
+            <StringItem index="2" value="Fen Bilgisi &#xd6;&#x11f;retmenli&#x11f;i"/>
+            <StringItem index="3" value="&#x130;lk&#xf6;&#x11f;retim Matematik &#xd6;&#x11f;retmenli&#x11f;i"/>
+            <StringItem index="4" value="&#x130;ngilizce &#xd6;&#x11f;retmenli&#x11f;i"/>
+            <StringItem index="5" value="Okul &#xd6;ncesi &#xd6;&#x11f;retmenli&#x11f;i"/>
+            <StringItem index="6" value="Rehberlik ve Psikolojik Dan&#x131;&#x15f;manl&#x131;k"/>
+            <StringItem index="7" value="S&#x131;n&#x131;f &#xd6;&#x11f;retmenli&#x11f;i"/>
+            <StringItem index="8" value="Sosyal Bilgiler &#xd6;&#x11f;retmenli&#x11f;i"/>
+            <StringItem index="9" value="T&#xfc;rk&#xe7;e &#xd6;&#x11f;retmenli&#x11f;i"/>
+            <StringItem index="10" value="&#xd6;zel E&#x11f;itim &#xd6;&#x11f;retmenli&#x11f;i"/>
+            <StringItem index="11" value="Biyoloji (&#x130;ngilizce)"/>
+            <StringItem index="12" value="Fizik (&#x130;ngilizce)"/>
+            <StringItem index="13" value="Kimya (&#x130;ngilizce)"/>
+            <StringItem index="14" value="Matematik (&#x130;ngilizce)"/>
+            <StringItem index="15" value="Psikoloji"/>
+            <StringItem index="16" value="Sosyoloji"/>
+            <StringItem index="17" value="Tarih"/>
+            <StringItem index="18" value="T&#xfc;rk Dili ve Edebiyat&#x131;"/>
+            <StringItem index="19" value="Sosyoloji (&#x130;&#xd6;)"/>
+            <StringItem index="20" value="Tarih (&#x130;&#xd6;)"/>
+            <StringItem index="21" value="T&#xfc;rk Dili ve Edebiyat&#x131; (&#x130;&#xd6;)"/>
+            <StringItem index="22" value="Biyoloji (&#x130;ngilizce) (KKTC Uyruklu)"/>
+            <StringItem index="23" value="Pazarlama"/>
+            <StringItem index="24" value="Uluslararas&#x131; Ticaret ve Lojistik"/>
+            <StringItem index="25" value="Finans ve Bankac&#x131;l&#x131;k"/>
+            <StringItem index="26" value="Hukuk "/>
+            <StringItem index="27" value="&#x130;ktisat"/>
+            <StringItem index="28" value="&#x130;&#x15f;letme"/>
+            <StringItem index="29" value="Kamu Y&#xf6;netimi"/>
+            <StringItem index="30" value="Uluslararas&#x131; &#x130;li&#x15f;kiler"/>
+            <StringItem index="31" value="Maliye"/>
+            <StringItem index="32" value="Kamu Y&#xf6;netimi (&#x130;&#xd6;)"/>
+            <StringItem index="33" value="Uluslararas&#x131; &#x130;li&#x15f;kiler (&#x130;&#xd6;)"/>
+            <StringItem index="34" value="Maliye (&#x130;&#xd6;)"/>
+            <StringItem index="35" value="&#x130;ktisat (KKTC Uyruklu)"/>
+            <StringItem index="36" value="&#x130;lahiyat"/>
+            <StringItem index="37" value="&#x130;lahiyat (&#x130;&#xd6;)"/>
+            <StringItem index="38" value="&#x130;lahiyat (Arap&#xe7;a)"/>
+            <StringItem index="39" value="&#x130;lahiyat (Arap&#xe7;a) (M.T.O.K.)"/>
+            <StringItem index="40" value="&#x130;lahiyat (M.T.O.K.)"/>
+            <StringItem index="41" value="&#x130;lahiyat (M.T.O.K.) (&#x130;&#xd6;)"/>
+            <StringItem index="42" value="Gazetecilik"/>
+            <StringItem index="43" value="Halkla &#x130;li&#x15f;kiler ve Tan&#x131;t&#x131;m"/>
+            <StringItem index="44" value="Radyo, Televizyon ve Sinema"/>
+            <StringItem index="45" value="Gazetecilik (&#x130;&#xd6;)"/>
+            <StringItem index="46" value="Halkla &#x130;li&#x15f;kiler ve Tan&#x131;t&#x131;m (&#x130;&#xd6;)"/>
+            <StringItem index="47" value="Mimarl&#x131;k"/>
+            <StringItem index="48" value="G&#x131;da M&#xfc;hendisli&#x11f;i"/>
+            <StringItem index="49" value="Makine M&#xfc;hendisli&#x11f;i"/>
+            <StringItem index="50" value="Elektrik-Elektronik M&#xfc;hendisli&#x11f;i"/>
+            <StringItem index="51" value="Bilgisayar M&#xfc;hendisli&#x11f;i"/>
+            <StringItem index="52" value="Kimya M&#xfc;hendisli&#x11f;i (&#x130;ngilizce)"/>
+            <StringItem index="53" value="&#x130;n&#x15f;aat M&#xfc;hendisli&#x11f;i"/>
+            <StringItem index="54" value="Bilgisayar M&#xfc;hendisli&#x11f;i (KKTC Uyruklu)"/>
+            <StringItem index="55" value="Elektrik-Elektronik M&#xfc;hendisli&#x11f;i (KKTC Uyruklu)"/>
+            <StringItem index="56" value="Beslenme ve Diyetetik"/>
+            <StringItem index="57" value="Fizyoterapi ve Rehabilitasyon"/>
+            <StringItem index="58" value="Hem&#x15f;irelik"/>
+            <StringItem index="59" value="T&#x131;p Fak&#xfc;ltesi"/>
+            <StringItem index="60" value="Gastronomi ve Mutfak Sanatlar&#x131;"/>
+            <StringItem index="61" value="Turizm &#x130;&#x15f;letmecili&#x11f;i"/>
+            <StringItem index="62" value="Turizm Rehberli&#x11f;i"/>
+            <StringItem index="63" value="Tarla Bitkileri"/>
+            <StringItem index="64" value="Bitki Koruma"/>
+            <StringItem index="65" value="Kanatl&#x131; Hayvan Yeti&#x15f;tiricili&#x11f;i"/>
+            <StringItem index="66" value="Bah&#xe7;e Bitkileri"/>
+            <StringItem index="67" value="Tohum Bilimi ve Teknolojisi"/>
+            <StringItem index="68" value="&#x130;ngilizce M&#xfc;tercim ve Terc&#xfc;manl&#x131;k"/>
+            <StringItem index="69" value="Kooperatif&#xe7;ilik"/>
+            <StringItem index="70" value="Turizm ve Otel &#x130;&#x15f;letmecili&#x11f;i"/>
+            <StringItem index="71" value="Muhasebe ve Vergi Uygulamalar&#x131;"/>
+            <StringItem index="72" value="&#x130;&#x15f;letme Y&#xf6;netimi"/>
+            <StringItem index="73" value="&#x130;nsan Kaynaklar&#x131; Y&#xf6;netimi"/>
+            <StringItem index="74" value="Sa&#x11f;l&#x131;k Kurumlar&#x131; &#x130;&#x15f;letmecili&#x11f;i"/>
+            <StringItem index="75" value="Bankac&#x131;l&#x131;k ve Sigortac&#x131;l&#x131;k"/>
+            <StringItem index="76" value="Turizm ve Otel &#x130;&#x15f;letmecili&#x11f;i (&#x130;&#xd6;)"/>
+            <StringItem index="77" value="Muhasebe ve Vergi Uygulamalar&#x131; (&#x130;&#xd6;)"/>
+            <StringItem index="78" value="Bankac&#x131;l&#x131;k ve Sigortac&#x131;l&#x131;k (&#x130;&#xd6;)"/>
+            <StringItem index="79" value="Otomotiv Teknolojisi"/>
+            <StringItem index="80" value="Bilgisayar Programc&#x131;l&#x131;&#x11f;&#x131;"/>
+            <StringItem index="81" value="Peyzaj ve S&#xfc;s Bitkileri Yeti&#x15f;tiricili&#x11f;i"/>
+            <StringItem index="82" value="Tekstil Teknolojisi"/>
+            <StringItem index="83" value="&#x130;&#xe7; Mekan Tasar&#x131;m&#x131;"/>
+            <StringItem index="84" value="Elektrik"/>
+            <StringItem index="85" value="Elektronik Teknolojisi"/>
+            <StringItem index="86" value="Grafik Tasar&#x131;m&#x131;"/>
+            <StringItem index="87" value="Grafik Tasar&#x131;m&#x131; (&#x130;&#xd6;)"/>
+            <StringItem index="88" value="Bilgisayar Programc&#x131;l&#x131;&#x11f;&#x131; (&#x130;&#xd6;)"/>
+            <StringItem index="89" value="&#x130;&#xe7; Mekan Tasar&#x131;m&#x131; (&#x130;&#xd6;)"/>
+            <StringItem index="90" value="Kimya Teknolojisi"/>
+            <StringItem index="91" value="Bilgisayar Programc&#x131;l&#x131;&#x11f;&#x131;"/>
+            <StringItem index="92" value="Deri Teknolojisi"/>
+            <StringItem index="93" value="Tekstil Teknolojisi"/>
+            <StringItem index="94" value="Muhasebe ve Vergi Uygulamalar&#x131;"/>
+            <StringItem index="95" value="Otomotiv Teknolojisi"/>
+            <StringItem index="96" value="&#x130;&#x15f;letme Y&#xf6;netimi"/>
+            <StringItem index="97" value="Ayakkab&#x131; Tasar&#x131;m ve &#xdc;retimi"/>
+            <StringItem index="98" value="&#xd6;zel G&#xfc;venlik ve Koruma"/>
+            <StringItem index="99" value="Makine Resim ve Konstr&#xfc;ksiyonu"/>
+            <StringItem index="100" value="Sivil Savunma ve &#x130;tfaiyecilik"/>
+            <StringItem index="101" value="Posta Hizmetleri"/>
+            <StringItem index="102" value="&#x130;lk ve Acil Yard&#x131;m"/>
+            <StringItem index="103" value="T&#x131;bbi Dok&#xfc;mantasyon ve Sekreterlik"/>
+            <StringItem index="104" value="A&#x11f;&#x131;z ve Di&#x15f; Sa&#x11f;l&#x131;&#x11f;&#x131;"/>
+            <StringItem index="105" value="T&#x131;bbi G&#xf6;r&#xfc;nt&#xfc;leme Teknikleri"/>
+            <StringItem index="106" value="&#xc7;ocuk Geli&#x15f;imi"/>
+            <StringItem index="107" value="A&#x15f;&#xe7;&#x131;l&#x131;k"/>
+            <StringItem index="108" value="&#x130;&#x15f;letme Y&#xf6;netimi"/>
+            <StringItem index="109" value="K&#xfc;mes Hayvanlar&#x131; Yeti&#x15f;tiricili&#x11f;i"/>
+            <StringItem index="110" value="Turizm ve Otel &#x130;&#x15f;letmecili&#x11f;i"/>
+            <StringItem index="111" value="Laborant ve Veteriner Sa&#x11f;l&#x131;k"/>
+            <StringItem index="112" value="Mimari Restorasyon"/>
+            <StringItem index="113" value="Ormanc&#x131;l&#x131;k ve Orman &#xdc;r&#xfc;nleri"/>
+            <StringItem index="114" value="&#x130;&#x15f; Sa&#x11f;l&#x131;&#x11f;&#x131; ve G&#xfc;venli&#x11f;i"/>
+            <StringItem index="115" value="Sosyal Hizmetler"/>
+            <StringItem index="116" value="Sosyal G&#xfc;venlik"/>
+            <StringItem index="117" value="&#x130;n&#x15f;aat Teknolojisi"/>
+            <StringItem index="118" value="Lojistik"/>
+            <StringItem index="119" value="G&#x131;da Kalite Kontrol&#xfc; ve Analizi"/>
+            <StringItem index="120" value="D&#x131;&#x15f; Ticaret"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
